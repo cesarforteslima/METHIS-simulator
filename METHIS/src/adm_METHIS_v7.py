@@ -41,8 +41,7 @@ parser.add_argument('-r', '--rel_ind', type=str, default=0.05, help='Threshold o
 
 args=parser.parse_args()
 	
-usage="python adm_METHIS.py --gen {generations#} --wdir {path/directory#} ...' \
-[help= python adm_METHIS.py --help]"
+usage="python adm_METHIS.py --gen {generations#} --wdir {path/directory#} ...' [help= python adm_METHIS.py --help]"
 
 args=parser.parse_args()
 
