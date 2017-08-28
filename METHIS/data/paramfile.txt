@@ -1,0 +1,21 @@
+#!/bin/sh
+#sh paramfile.txt
+#
+# python tool_METHIS_v7.py --help
+
+
+# Model 1: Single pulse
+
+python tool_METHIS_v7.py \
+\
+--wdir ./ancestral_pop/Model1_SinglePulse --input_snp ancestral_pop \
+\
+--gen 5 --Ne 1000/Con/1000-1000 --sampling 60/37/40 \
+\
+--nb_simulations 4 --nb_threads 20 \
+\
+--list_s1 default/Con/0-0/0-0/default \
+\
+--list_s2 default/Con/0-0/0-0/default \
+\
+--plots All_gen 2> /dev/null
