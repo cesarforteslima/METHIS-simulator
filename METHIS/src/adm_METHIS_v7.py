@@ -33,6 +33,7 @@ args=parser.parse_args()
 
 #########################################################################################################
 
+
 intro='\n'
 intro += '#-------------------------------------------------------------------------------------------\n'
 intro += '****             		METHIS simulator Version 1.0.0				****\n'
@@ -41,8 +42,10 @@ intro += '****             		by C. Fortes-Lima & P. Verdu				****\n'
 intro += '****											****\n'
 intro += '****             	Admixture models based on Verdu & Rosenberg. 2011		****\n'
 intro += '****             		doi: 10.1534/genetics.111.132787			****\n'
-intro += '****	 		Information at http://github.com/cesarforteslima/methis		****\n'
+intro += '****	 	Information at https://github.com/cesarforteslima/METHIS-simulator	****\n'
 intro += '#-------------------------------------------------------------------------------------------\n'
+
+print intro
 
 #########################################################################################################
 
