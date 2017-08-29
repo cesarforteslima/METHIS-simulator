@@ -1,2 +1,1 @@
-# new_repository
-Installing Git
+Coming soon!
